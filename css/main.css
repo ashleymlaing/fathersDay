@@ -1,0 +1,90 @@
+body{
+  font-family: 'Tajawal', sans-serif;
+  background-color: #00BFFF;
+  color: white;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1{
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h2{
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+p, pre{
+  font-size: 24px;
+}
+
+span{
+  font-family: 'Dancing Script', cursive;
+  font-size: 22px;
+}
+
+.testimonial{
+  width: 60%;
+  padding: 0 20px;
+}
+
+.slideshow{
+  position: fixed;
+  top: 10px;
+  right: 0;
+  bottom: 10px;
+  z-index: -1;
+  margin: 0 auto;
+  width: 40%;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  filter: contrast(50%);
+}
+
+.slideshow img{
+  max-width: 70%;
+  max-height: 500px;
+}
+
+@media only screen and (max-width:495px){
+  .slideshow {
+    position: inherit;
+    width: 100%;
+  }
+  .testimonial{
+    width: 100%;
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+}
+
+@media (min-width: 495px) and (max-width:700px){
+  .slideshow {
+    position: relative;
+    width: 100%;
+  }
+  .testimonial{
+    width: 95%;
+    padding: 10px;
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+}
