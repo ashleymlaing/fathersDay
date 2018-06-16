@@ -40,7 +40,7 @@ function changeText() {
     } else {
       textIndex = 0;
     }
-  }, 4000)
+  }, 10000)
 }
 
 $(document).ready(function(){
